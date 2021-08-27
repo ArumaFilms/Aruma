@@ -15,9 +15,7 @@ export default function TextUtilies(props) {
         setText(event.target.value);
     }
     const handleCopy = () => {
-        var text = document.getElementById("myBox");
-        text.select();
-        navigator.clipboard.writeText(text.value);
+        navigator.clipboard.writeText(text);
         props.showAlert("Copied Text!", "success");
     }
     const handleExtraSpaces = () => {
