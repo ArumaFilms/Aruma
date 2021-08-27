@@ -39,6 +39,9 @@ function App() {
               <Route exact path="/">
                 <Home/>
               </Route>
+              <Route exact path="/Aruma">
+                <Home/>
+              </Route>
               <Route exact path="/TextUtilies">
                 <TextUtilies heading="Enter the text" showAlert={showAlert}/>
               </Route>
