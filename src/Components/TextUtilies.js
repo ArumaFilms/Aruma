@@ -35,7 +35,7 @@ export default function TextUtilies(props) {
     return (
         <>
         <div className="container">
-            <h1>{props.heading}</h1>
+            <h1 className="mx-3">{props.heading}</h1>
             <div className="mb-3">
                 <textarea className="form-control" onChange={handleOnChange} id="myBox" value={text} rows="7"></textarea>
             </div>
