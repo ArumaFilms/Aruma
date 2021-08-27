@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Aruma/static/css/main.ea1455b2.chunk.css",
+    "main.js": "/Aruma/static/js/main.b2ca3625.chunk.js",
+    "main.js.map": "/Aruma/static/js/main.b2ca3625.chunk.js.map",
+    "runtime-main.js": "/Aruma/static/js/runtime-main.a56119a0.js",
+    "runtime-main.js.map": "/Aruma/static/js/runtime-main.a56119a0.js.map",
+    "static/js/2.cdc97c6e.chunk.js": "/Aruma/static/js/2.cdc97c6e.chunk.js",
+    "static/js/2.cdc97c6e.chunk.js.map": "/Aruma/static/js/2.cdc97c6e.chunk.js.map",
+    "static/js/3.6e88d339.chunk.js": "/Aruma/static/js/3.6e88d339.chunk.js",
+    "static/js/3.6e88d339.chunk.js.map": "/Aruma/static/js/3.6e88d339.chunk.js.map",
+    "index.html": "/Aruma/index.html",
+    "static/css/main.ea1455b2.chunk.css.map": "/Aruma/static/css/main.ea1455b2.chunk.css.map",
+    "static/js/2.cdc97c6e.chunk.js.LICENSE.txt": "/Aruma/static/js/2.cdc97c6e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a56119a0.js",
+    "static/js/2.cdc97c6e.chunk.js",
+    "static/css/main.ea1455b2.chunk.css",
+    "static/js/main.b2ca3625.chunk.js"
+  ]
+}
