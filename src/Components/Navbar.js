@@ -24,7 +24,7 @@ export default function Navbar(props) {
               <Link className="nav-link" to="/TextUtilies">TextUtilies</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/Contact">Contract Us</Link>
+              <Link className="nav-link" to="/Contact">Contact Us</Link>
             </li>
           </ul>
 
