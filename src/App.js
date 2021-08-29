@@ -43,7 +43,7 @@ function App() {
                 <Home/>
               </Route>
               <Route exact path="/TextUtilies">
-                <TextUtilies heading="Enter the text" showAlert={showAlert}/>
+                <TextUtilies heading="TextUtilies | lowercase <-TO-> UPPERCASE | Remove Extra Space" showAlert={showAlert}/>
               </Route>
               <Route path="/Contact">
                 <Contact/>

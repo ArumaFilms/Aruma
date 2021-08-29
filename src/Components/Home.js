@@ -40,7 +40,7 @@ export default class Home extends Component {
         return (
             <>
             <div className="container my-3">
-                <h1 className="d-flex justify-content-center">Our Videos</h1>
+                <h1 className="d-flex justify-content-center text-info">Our Videos</h1>
                 <div className="row">
                 {this.state.articles.map((element)=>{
                     return <div className="col-md-4 my-4" key={element.url}>

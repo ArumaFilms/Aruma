@@ -33,9 +33,9 @@ export default function TextUtilies(props) {
     return (
         <>
         <div className="container">
-            <h1 className="my-3">{props.heading}</h1>
+            <h3 className="my-3 d-flex justify-content-center text-info ">{props.heading}</h3>
             <div className="mb-3">
-                <textarea className="form-control" onChange={handleOnChange} id="myBox" value={text} rows="7"></textarea>
+                <textarea className="form-control" onChange={handleOnChange} id="myBox" value={text} rows="5"></textarea>
             </div>
             <button disabled={text.length===0} className="btn btn-primary mx-2 my-1" onClick={handleUpClick}>Convert to UpperCase</button>
             <button disabled={text.length===0} className="btn btn-primary mx-2 my-1" onClick={handleLoClick}>Convert to LowerCase</button>
