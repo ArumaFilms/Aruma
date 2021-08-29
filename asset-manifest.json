@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Aruma/static/css/main.ea1455b2.chunk.css",
-    "main.js": "/Aruma/static/js/main.a5562921.chunk.js",
-    "main.js.map": "/Aruma/static/js/main.a5562921.chunk.js.map",
+    "main.js": "/Aruma/static/js/main.98fc36ec.chunk.js",
+    "main.js.map": "/Aruma/static/js/main.98fc36ec.chunk.js.map",
     "runtime-main.js": "/Aruma/static/js/runtime-main.803f5373.js",
     "runtime-main.js.map": "/Aruma/static/js/runtime-main.803f5373.js.map",
     "static/js/2.c37e9352.chunk.js": "/Aruma/static/js/2.c37e9352.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.803f5373.js",
     "static/js/2.c37e9352.chunk.js",
     "static/css/main.ea1455b2.chunk.css",
-    "static/js/main.a5562921.chunk.js"
+    "static/js/main.98fc36ec.chunk.js"
   ]
 }
