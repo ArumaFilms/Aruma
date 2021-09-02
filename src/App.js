@@ -35,22 +35,26 @@ function App() {
           <Switch>
               <Route exact path="/Home">
                 <Home/>
+                <Footer c="footer"/>
               </Route>
               <Route exact path="/">
                 <Home/>
+                <Footer c="footer"/>
               </Route>
               <Route exact path="/Aruma">
                 <Home/>
+                <Footer c="footer"/>
               </Route>
               <Route exact path="/TextUtilies">
                 <TextUtilies heading="TextUtilies | lowercase <-TO-> UPPERCASE | Remove Extra Space" showAlert={showAlert}/>
+                <Footer c="footer"/>
               </Route>
               <Route path="/Contact">
                 <Contact/>
+                <Footer c="footer fixed-bottom"/>
               </Route>
           </Switch>
         </div>
-        <Footer/>
       </Router>
     </>
   );

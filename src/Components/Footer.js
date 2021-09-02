@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faYoutube,
@@ -7,17 +7,17 @@ import {
     faInstagram
   } from "@fortawesome/free-brands-svg-icons";
 
-export default class Footer extends Component {
-    render() {
+export default function Footer(props) {
+
         return (
-            <div>
+            <div className={props.c} style={{"backgroundColor": "rgba(0, 0, 0, 0.05"}}>
                 <footer className="d-flex flex-wrap justify-content-between align-items-center py-2 border-top">
 
                 <div className="col-md-4 d-flex align-items-center">
                 <a href="/Aruma" className="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1 mx-3">
                     <h4 className="text-dark">Aruma Films</h4>
+                    <span>© 2021 Company, Inc</span>
                 </a>
-                <span>© 2021 Company, Inc</span>
                 </div>
 
                 {/* design by */}
@@ -45,4 +45,3 @@ export default class Footer extends Component {
             </div>
         )
     }
-}
