@@ -5,13 +5,13 @@ import Home from './Components/Home'
 import Contact from './Components/Contact'
 import TextUtilies from './Components/TextUtilies';
 import Alert from './Components/Alert';
-
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   // Link
 } from "react-router-dom";
+import Footer from './Components/Footer';
 
 function App() {
   const [alert, setAlert] = useState(null)
@@ -50,6 +50,7 @@ function App() {
               </Route>
           </Switch>
         </div>
+        <Footer/>
       </Router>
     </>
   );

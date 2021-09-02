@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export default function Navbar(props) {
     return (
         <>
-        <nav className="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-lg sticky-top navbar-dark bg-dark fixed-top">
         <div className="container-fluid">
         <Link className="navbar-brand" to="/Aruma">
         {props.title}
