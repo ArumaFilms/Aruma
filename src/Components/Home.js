@@ -40,6 +40,8 @@ export default class Home extends Component {
         return (
             <>
             <div className="container my-3">
+                {/* youtube button */}
+                <div class="g-ytsubscribe" data-channelid="UCHiBsgw-EuyyS2J8j3NEFPg" data-layout="full" data-theme="dark" data-count="default"></div>
                 <h1 className="d-flex justify-content-center text-info">Our Videos</h1>
                 <div className="row">
                 {this.state.articles.map((element)=>{
